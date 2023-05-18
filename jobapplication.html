@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+
+        <h1>Job Application</h1>
+
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name">
+
+        <br/>
+        <br/>
+
+        <label for="email">Email ID :</label>
+        <input type="email" name="email" id="email">
+
+        <br/>
+        <br/>
+
+        <label for="phoneNum">Phone Number :</label>
+        <input type="tel" name="phoneNum" id="phoneNum">
+
+        <br/>
+        <br/>
+
+        <label for="file">Resume :</label>
+        <input type="file" name="file" id="file">
+
+        <br/>
+        <br/>
+
+        <label for="counter">Experience :</label>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+      
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>skills:</legend>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="skills" id="html">
+            <label for="java">JavaScript</label>
+            <input type="checkbox" name="skills" id="java">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="skills" id="css">
+
+
+        </fieldset>
+
+        <br/>
+        <br/>
+
+        <label for="edu">Higher Education :</label>
+        <select name="exp" id="edu">
+            <option value="" disabled>--education-- </option>
+            <option value="edu1">HighSchool</option>
+            <option value="edu2">intermedicate</option>
+            <option value="edu3">Degree</option>
+            <option value="edu4">Master</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <label for="">availability :</label>
+        <br/>
+        <label for="fulltime">Full time</label>
+        <input type="radio" name="availability" id="fulltime">
+         
+        <br/>
+        <label for="part">Part-time</label>
+        <input type="radio" name="availability" id="part">
+
+        <br/>
+        <br/>
+        <label for="comm">Additional Comment:</label>
+        <br/>
+        <textarea name="comm" id="comm" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit Application">
+
+    </form>
+
+
+</body>
+</html>
